@@ -45,4 +45,11 @@ https://octodex.github.com/images/yaktocat.png
 
 :sparkles: :camel: :boom:
 
+# code
 
+``` javascript
+
+	if(isYesNo) {return true}
+```
+
+글을 작성하다가 중간에 code 넣기 ` var example = true ` 
