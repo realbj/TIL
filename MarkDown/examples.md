@@ -35,26 +35,6 @@ https://octodex.github.com/images/yaktocat.png
 > 내 생각이 옳지 않을 수도 있다. 
 >- RealbJ
 
-# Code 넣기
-
-글쓰는 중간에 code를 넣고 싶으면 '#' 처럼 작은 따음표를 사용하면 된다.  'var exapmle = true' 
-몇 줄의 code를 넣고 싶으면 작은 따음표 3개로 code를 감싸라
-
-'''    
-if (isAwesome)
-{
-    return true
-}
-'''
-
-특별한 언어의 문법으로 보여주기 원한다면,  작은 따음표 3개 뒤에 언어명을 쓰자.
-
-'''javascript    
-if (isAwesome){
-      return true
-}
-```
-
 # list 표시
 
 - [x] 이미 작업한 것
@@ -62,6 +42,7 @@ if (isAwesome){
 
 
 # emoji
+
 :sparkles: :camel: :boom:
 
 
