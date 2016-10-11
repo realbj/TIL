@@ -53,3 +53,27 @@ https://octodex.github.com/images/yaktocat.png
 ```
 
 글을 작성하다가 중간에 code 넣기 ` var example = true ` 
+
+
+# 가로선 넣기
+
+'---'을 넣으면 된다.
+
+---
+
+# 취소선
+
+ <del> 취소선 </del>
+
+# 주석 달기
+주석을 달고 싶은 주제[^1]. blabla
+
+[^1]:첨언하고 싶은 내용
+
+
+# table
+
+좋은 습관 | 나쁜 습관
+---|---
+걷기|눕기
+정리하기|난장판만들기
