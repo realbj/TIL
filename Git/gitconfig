@@ -1,0 +1,28 @@
+# git 설정 
+user 입장으로 git 설정을 하는 방법을 위주로 정리해 본다.
+
+파일 위치
+` ~/.gitconfig `
+git config --global 옵션으로 이 파일을 읽고 쓸 수 있다. (유저 설정)
+
+특정 위치/.git/config 파일은 해당 저장소에 관련한 옵션만 적용 된다. (저장소 설정)
+
+
+# 필수 설정
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+기본 편집기 설정
+$ git config --global core.editor emacs
+diff 프로그램 설정
+$ git config --global merge.tool vimdiff
+
+git 기본 commit msg
+git config --global commit.template $HOME/.gitmessage.txt
+
+git log나 diff하는 경우 page단위로 나누고자 할 때
+$ git config --global core.pager ''
+
+git 기본 색칠하기
+$ git config --global color.ui true
+
