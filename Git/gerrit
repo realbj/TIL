@@ -1,0 +1,9 @@
+# code review service 
+
+addreviewer  = "! f() {\
+  ssh -p [portNum] [계정]@[gerrit주소]  gerrit set-reviewers -a [reviewer E-mail]  -a [reviewer E-mail] $(git log -1 --pretty=format:'%h');\
+            }; f"
+
+addverified  = "! f() {\
+  ssh -p [portNum] [계정]@[gerrit주소]  gerrit review --verified=+1 --code-review=+1 $(git log -1 --pretty=format:'%h');\
+            }; f"

@@ -26,3 +26,11 @@ $ git config --global core.pager ''
 git 기본 색칠하기
 $ git config --global color.ui true
 
+# 실제 회사에서 사용한 config 내용들
+[commit]
+    template = /home/beomjoon.kim/work/git_config/commit-templates.txt
+
+[alias]
+   l = "log --graph --color --pretty=format:'%Cred%h%Creset %Cgreen(%cr) %C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset' --abbrev-commit -20"
+
+
